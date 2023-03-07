@@ -38,6 +38,7 @@ h1{
 h2{
     font-size: 2.5rem;
     font-family: "Lora-variable";
+    margin-bottom: 3rem;
 }
 
 hr{
@@ -50,6 +51,45 @@ p{
     font-size: 1.2rem;
     font-family: "Ubuntu-regular";
     line-height: 1.8;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2    rem;
 }
 
+#back-to-top{
+    font-family: "Ubuntu-regular";
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background-color: rgba(255, 255, 255, .9);
+    color: #313943;
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, .25);
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    opacity: 0;
+    text-decoration: none;
+    font: .75em;
+}
+
+#back-to-top:hover{
+    background-color: #fff;
+    padding: 1em 3em;
+}
+
+#back-to-top.visible{
+    opacity: 1;
+}
+
+
+footer{
+    padding: 1em 0;
+    background-color: #ECF2FF;
+    color: black;
+}
+
+footer p{
+    margin: 0 auto;
+}
